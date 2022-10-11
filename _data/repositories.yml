@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - wangleiofficial
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ISYSLAB-HUST/DeepTMpred
+  - ISYSLAB-HUST/Res-Dom
+  - ISYSLAB-HUST/NeuroPred-PLM
+
