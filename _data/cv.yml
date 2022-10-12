@@ -28,6 +28,6 @@
 - title: Skills
   type: list
   contents:
-    - <u>Deep learning:</u>PyTorch, TensorFlow, DGL, .
+    - <u>Deep learning:</u>PyTorch, TensorFlow, DGL.
     - <u>Programming language:</u> Python, C++, JavaScript.
     - <u>Web development:</u> flask, Vue.
