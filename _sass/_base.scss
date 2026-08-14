@@ -327,6 +327,83 @@ blockquote {
   padding-bottom: 1.5rem;
 }
 
+.tools-intro {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.tools-intro p {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.94rem;
+  margin: 0.45rem 0 0;
+  max-width: 38rem;
+}
+
+.tools-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--global-divider-color);
+  border: 1px solid var(--global-divider-color);
+}
+
+.tool-card {
+  background: var(--global-bg-color);
+  min-height: 13.5rem;
+  padding: 1.25rem;
+}
+
+.tool-meta {
+  color: var(--global-theme-color) !important;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tool-card h2 {
+  font-family: Iowan Old Style, Baskerville, Georgia, serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  margin: 1.55rem 0 0.45rem;
+}
+
+.tool-card p {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.tool-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1.15rem;
+}
+
+.tool-links a {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 99px;
+  color: var(--global-text-color) !important;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.24rem 0.55rem;
+}
+
+.tool-links a:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color) !important;
+  text-decoration: none;
+}
+
+.tools-footer {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.84rem;
+  margin: 1rem 0 0;
+}
+
 .publication-intro p { color: var(--global-text-color-light) !important; margin: 0.5rem 0 0; }
 
 .publications h2.year {
@@ -393,6 +470,8 @@ footer .container {
   .post { padding-top: 1.25rem; }
   .post-title { font-size: 1.9rem; }
   .profile.float-right { margin: 0 0 0.8rem 1rem; width: 25%; }
+  .tools-grid { grid-template-columns: 1fr; }
+  .tool-card { min-height: auto; }
   .publications .abbr { margin-bottom: 0.8rem; }
 }
 .dropdown-item {
