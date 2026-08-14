@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Protein representation learning · Bioinformatics
+subtitle: Associate Research Professor · Bioinformatics
 
 profile:
   align: right
@@ -17,12 +17,12 @@ social: false
 <div class="eyebrow">BIOINFORMATICS · PROTEIN AI</div>
 
 <div class="intro-copy">
-I am a researcher in the School of Life Science and Technology at <strong>Huazhong University of Science and Technology</strong>. I develop machine-learning methods that help turn protein sequences into useful biological insight.
+I am an <strong>Associate Research Professor</strong> at <strong>Central China Normal University</strong>. I develop machine-learning methods that help turn protein sequences into useful biological insight.
 </div>
 
 <div class="action-links">
   <a class="button button-primary" href="/publications/">View publications <span>→</span></a>
-  <a class="button" href="mailto:wanglei94@hust.edu.cn">Get in touch</a>
+  <a class="button" href="https://orcid.org/0000-0002-0168-9730" target="_blank" rel="noopener">Academic record</a>
 </div>
 
 <div class="profile-links">
@@ -59,7 +59,8 @@ I am a researcher in the School of Life Science and Technology at <strong>Huazho
     <h2>Training at the intersection of biology and AI.</h2>
   </div>
   <div class="timeline">
-    <div><span>Now</span><p>School of Life Science and Technology<br><strong>Huazhong University of Science and Technology</strong></p></div>
-    <div><span>Earlier</span><p>Bachelor’s degree<br><strong>Huazhong Agricultural University</strong></p></div>
+    <div><span>2026–now</span><p>Associate Research Professor<br><strong>Central China Normal University</strong></p></div>
+    <div><span>2024–2026</span><p>Postdoctoral fellow<br><strong>Huazhong University of Science and Technology</strong></p></div>
+    <div><span>PhD</span><p>Doctoral training<br><strong>Huazhong University of Science and Technology</strong></p></div>
   </div>
 </section>

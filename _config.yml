@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Lei
 middle_name: 
 last_name: Wang
-email: wanglei94@hust.edu.cn
+email: # Add a public contact address when you are ready to display one.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Lei Wang — researcher in protein representation learning and bioinformatics.
 footer_text: >
