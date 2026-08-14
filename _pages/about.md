@@ -3,6 +3,9 @@ layout: about
 title: home
 permalink: /
 subtitle: Associate Research Professor · Bioinformatics
+language: en
+english_url: /
+chinese_url: /zh/
 
 profile:
   align: right

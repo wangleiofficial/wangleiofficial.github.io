@@ -214,6 +214,29 @@ blockquote {
   letter-spacing: 0.02em;
 }
 
+.language-switch {
+  display: flex;
+  gap: 0.35rem;
+  margin-top: 0.55rem;
+}
+
+.language-switch a,
+.language-switch span {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+}
+
+.language-switch a:hover {
+  color: var(--global-theme-color) !important;
+  text-decoration: none;
+}
+
+.language-switch a.is-active {
+  color: var(--global-text-color) !important;
+  font-weight: 700;
+}
+
 .profile.float-right {
   margin-left: clamp(1rem, 2.5vw, 1.75rem);
   width: min(18%, 125px);

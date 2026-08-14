@@ -9,6 +9,7 @@ layout: default
            {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
+          {% include language_switch.html %}
         </header>
 
         <article>

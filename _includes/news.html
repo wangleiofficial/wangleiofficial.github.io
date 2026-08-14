@@ -1,6 +1,6 @@
           
           <div class="news">
-            <h2>news</h2>
+            <h2>{% if page.language == 'zh' %}最新动态{% else %}news{% endif %}</h2>
             {% if site.news != blank -%} 
             {%- assign news_size = site.news | size -%}
             <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>
@@ -15,7 +15,9 @@
                 <tr>
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
-                    {% if item.inline -%} 
+                    {% if page.language == 'zh' and item.zh -%}
+                      {{ item.zh | emojify }}
+                    {% elsif item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%} 
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>

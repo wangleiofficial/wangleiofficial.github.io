@@ -3,6 +3,9 @@ layout: page
 permalink: /tools/
 title: tools
 description: Open research software, models, and web resources.
+language: en
+english_url: /tools/
+chinese_url: /zh/tools/
 nav: true
 nav_order: 2
 ---
