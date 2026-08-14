@@ -287,9 +287,9 @@ blockquote {
 }
 
 .news {
-  border-top: 1px solid var(--global-divider-color);
-  margin-top: 1.65rem;
-  padding-top: 0.85rem;
+  border-top: 2px solid var(--global-divider-color);
+  margin-top: 2rem;
+  padding-top: 0.95rem;
 }
 
 .news h2 {
@@ -311,10 +311,15 @@ blockquote {
   font-size: 0.74rem;
   font-weight: 500;
   padding-left: 0;
+  padding-top: 0.42rem;
   white-space: nowrap;
 }
 
-.news .table td { padding-right: 0; }
+.news .table td {
+  padding-bottom: 0.35rem;
+  padding-right: 0;
+  padding-top: 0.35rem;
+}
 
 .publication-intro {
   border-bottom: 1px solid var(--global-divider-color);

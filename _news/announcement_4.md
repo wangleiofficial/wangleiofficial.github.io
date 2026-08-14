@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2026-08-01 09:00:00+0800
+date: 2026-01-27 09:00:00+0800
 inline: true
 ---
 
-I have joined <strong>Central China Normal University</strong> as an Associate Research Professor and am now working with Professor Guangfu Yang’s group.
+<a href="https://doi.org/10.1016/j.jmb.2026.169660" target="_blank" rel="noopener">LocPred-Prok</a>, our work on prokaryotic protein subcellular localization prediction with protein language models, has been published in <em>Journal of Molecular Biology</em>.

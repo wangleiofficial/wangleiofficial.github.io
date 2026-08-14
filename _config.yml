@@ -143,7 +143,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: false # keep recent updates fully visible on the homepage
-news_limit: 3 # show the latest updates on the homepage
+news_limit: 1 # show one concise, current update on the homepage
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
