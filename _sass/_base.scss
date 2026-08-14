@@ -486,6 +486,43 @@ blockquote {
   margin-top: 1rem;
 }
 
+.news-admin-intro {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 1.15rem;
+  padding-bottom: 1rem;
+}
+
+.news-admin-intro p {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.94rem;
+  line-height: 1.55;
+  margin: 0.45rem 0 0;
+  max-width: 39rem;
+}
+
+.news-admin-guide {
+  background: color-mix(in srgb, var(--global-theme-color) 7%, transparent);
+  border-left: 2px solid var(--global-theme-color);
+  font-size: 0.84rem;
+  line-height: 1.6;
+  margin-bottom: 1.3rem;
+  max-width: 42rem;
+  padding: 0.7rem 0.8rem;
+}
+
+.news-admin-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.news-manager-status {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.78rem;
+  margin: 0.7rem 0 0;
+}
+
 .publication-intro p { color: var(--global-text-color-light) !important; margin: 0.5rem 0 0; }
 
 .publications h2.year {
