@@ -248,6 +248,14 @@ blockquote {
   padding: 0.8rem 0 0;
 }
 
+.research-statement {
+  color: var(--global-text-color-light) !important;
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 1.1rem 0 0;
+  max-width: 42rem;
+}
+
 .action-links, .profile-links {
   align-items: center;
   display: flex;
@@ -351,6 +359,33 @@ blockquote {
   margin-bottom: 2rem;
 }
 
+.capability-section {
+  border-top: 1px solid var(--global-divider-color);
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.15fr 1fr;
+  margin-top: 4.8rem;
+  padding-top: 1.25rem;
+}
+
+.capability-section h2 {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1.06;
+  margin: 0.4rem 0 0;
+}
+
+.capability-copy {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  padding-top: 0.25rem;
+}
+
+.capability-copy p { color: inherit !important; }
+
+.capability-copy strong { color: var(--global-text-color) !important; }
+
 .academic-section h2 { margin-bottom: 0; }
 
 .timeline > div {
@@ -447,7 +482,7 @@ footer .container {
   .research-grid { grid-template-columns: 1fr; }
   .research-card { min-height: auto; }
   .research-card h3 { margin-top: 1.8rem; }
-  .academic-section { grid-template-columns: 1fr; }
+  .academic-section, .capability-section { grid-template-columns: 1fr; }
   .publications .abbr { margin-bottom: 0.8rem; }
 }
 .dropdown-item {
