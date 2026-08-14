@@ -286,60 +286,6 @@ blockquote {
   margin-right: 0.25rem;
 }
 
-.selected-publications {
-  border-top: 1px solid var(--global-divider-color);
-  margin-top: 1.65rem;
-  padding-top: 0.85rem;
-}
-
-.selected-publications h2 {
-  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  margin: 0 0 0.55rem;
-  text-transform: uppercase;
-}
-
-.selected-publications ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.selected-publications li {
-  border-top: 1px solid var(--global-divider-color);
-  line-height: 1.4;
-  padding: 0.55rem 0;
-}
-
-.selected-publications li:first-child { border-top: 0; }
-
-.selected-publications li > a {
-  color: var(--global-text-color) !important;
-  display: block;
-  font-size: 0.89rem;
-  font-weight: 550;
-}
-
-.selected-publications li > a:hover { color: var(--global-theme-color) !important; }
-
-.selected-publications li > span {
-  color: var(--global-text-color-light) !important;
-  display: block;
-  font-size: 0.76rem;
-  margin-top: 0.18rem;
-}
-
-.selected-publications li em { color: inherit !important; }
-
-.all-publications {
-  display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin-top: 0.45rem;
-}
-
 .publication-intro {
   border-bottom: 1px solid var(--global-divider-color);
   margin-bottom: 2.4rem;
