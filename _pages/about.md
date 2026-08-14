@@ -17,10 +17,8 @@ social: false
 <div class="eyebrow">BIOINFORMATICS · PROTEIN AI</div>
 
 <div class="intro-copy">
-I am an <strong>Associate Research Professor</strong> at <strong>Central China Normal University</strong> and a member of <strong>Professor Guangfu Yang’s group</strong>. I develop machine-learning methods that help turn biological data into useful insight.
+I hold a PhD in Bioinformatics Engineering and am an <strong>Associate Research Professor</strong> at <strong>Central China Normal University</strong>, working with <strong>Professor Guangfu Yang’s group</strong>. My research applies AI to bioinformatics, with a focus on protein language models, biological sequence and structure analysis, RNA structure prediction, peptide therapeutics, and bioinformatics tools.
 </div>
-
-<p class="research-statement">I hold a PhD in Bioinformatics Engineering and work across life sciences, computer science, and artificial intelligence. My research focuses on protein language models, intelligent analysis of biological sequences and structures, RNA structure prediction, peptide therapeutics, and bioinformatics tool development.</p>
 
 <div class="action-links">
   <a class="button button-primary" href="/publications/">View publications <span>→</span></a>

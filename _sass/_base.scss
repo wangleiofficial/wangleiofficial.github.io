@@ -207,7 +207,7 @@ blockquote {
 }
 
 .post-title {
-  font-size: clamp(2.9rem, 7vw, 5.4rem);
+  font-size: clamp(2.25rem, 4.5vw, 3.65rem);
   font-weight: 500;
   line-height: 0.94;
   margin-bottom: 0.8rem;
@@ -246,14 +246,6 @@ blockquote {
   line-height: 1.35;
   max-width: 42rem;
   padding: 0.8rem 0 0;
-}
-
-.research-statement {
-  color: var(--global-text-color-light) !important;
-  font-size: 1rem;
-  line-height: 1.65;
-  margin: 1.1rem 0 0;
-  max-width: 42rem;
 }
 
 .action-links, .profile-links {
