@@ -286,6 +286,36 @@ blockquote {
   margin-right: 0.25rem;
 }
 
+.news {
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 1.65rem;
+  padding-top: 0.85rem;
+}
+
+.news h2 {
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
+
+.news .table {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.news .table th {
+  color: var(--global-text-color-light);
+  font-size: 0.74rem;
+  font-weight: 500;
+  padding-left: 0;
+  white-space: nowrap;
+}
+
+.news .table td { padding-right: 0; }
+
 .publication-intro {
   border-bottom: 1px solid var(--global-divider-color);
   margin-bottom: 2.4rem;
