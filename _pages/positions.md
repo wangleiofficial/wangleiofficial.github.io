@@ -7,7 +7,7 @@ language: en
 english_url: /positions/
 chinese_url: /zh/positions/
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 <div class="positions-intro">
@@ -23,5 +23,5 @@ nav_order: 3
     <li>Applicants should have a sound foundation in mathematics and science.</li>
     <li>Programming experience is a plus.</li>
   </ul>
-  <a class="button button-primary" href="/contact/">Express interest</a>
+  <a class="button button-primary" href="/contact/?subject=Undergraduate%20research%20application">Express interest</a>
 </section>

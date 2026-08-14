@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="post note-post">
+  <header class="news-post-header">
+    <a class="news-back" href="{{ '/notes/' | relative_url }}">← Research notes</a>
+    <div class="news-post-meta">
+      <span class="news-item-type">{{ page.note_type | default: "Research note" }}</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="note-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <article class="post-content news-post-content">
+    {{ content }}
+  </article>
+
+  <a class="button news-back-button" href="{{ '/notes/' | relative_url }}">All notes</a>
+</div>

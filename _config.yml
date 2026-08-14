@@ -141,6 +141,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  notes:
+    output: true
+    permalink: /notes/:path/
 
 news_scrollable: false # keep recent updates fully visible on the homepage
 news_limit: 3 # show three recent updates on the homepage; link to the archive for more

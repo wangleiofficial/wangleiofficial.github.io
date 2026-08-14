@@ -21,5 +21,5 @@ chinese_url: /zh/positions/
     <li>具有一定的数理基础。</li>
     <li>有编程经验者优先。</li>
   </ul>
-  <a class="button button-primary" href="/contact/">联系申请</a>
+  <a class="button button-primary" href="/contact/?subject=本科生科研申请">联系申请</a>
 </section>
