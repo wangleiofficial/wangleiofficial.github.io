@@ -4,7 +4,7 @@ permalink: /contact/
 title: contact
 description: For research discussions, collaborations, and software enquiries.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="contact-intro">

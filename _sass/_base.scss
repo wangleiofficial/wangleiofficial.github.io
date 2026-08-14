@@ -427,6 +427,45 @@ blockquote {
   margin: 1rem 0 0;
 }
 
+.positions-intro {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.positions-intro p {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.94rem;
+  line-height: 1.55;
+  margin: 0.45rem 0 0;
+  max-width: 39rem;
+}
+
+.position-card {
+  border: 1px solid var(--global-divider-color);
+  max-width: 42rem;
+  padding: 1.3rem;
+}
+
+.position-card h2 {
+  font-family: Iowan Old Style, Baskerville, Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1.15rem 0 0.55rem;
+}
+
+.position-card p,
+.position-list {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.position-list {
+  margin: 0.85rem 0 1rem;
+  padding-left: 1.1rem;
+}
+
 .contact-intro {
   border-bottom: 1px solid var(--global-divider-color);
   margin-bottom: 1.4rem;
