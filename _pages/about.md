@@ -10,14 +10,12 @@ profile:
   image_circular: true # crops the image to make it circular
 
 news: false
-selected_papers: true
+selected_papers: false
 social: false
 ---
 
-<div class="eyebrow">BIOINFORMATICS · PROTEIN AI</div>
-
 <div class="intro-copy">
-I hold a PhD in Bioinformatics Engineering and am an <strong>Associate Research Professor</strong> at <strong>Central China Normal University</strong>, working with <strong>Professor Guangfu Yang’s group</strong>. My research applies AI to bioinformatics, with a focus on protein language models, biological sequence and structure analysis, RNA structure prediction, peptide therapeutics, and bioinformatics tools.
+I am an <strong>Associate Research Professor</strong> at <strong>Central China Normal University</strong> and a member of <strong>Professor Guangfu Yang’s group</strong>. I work at the intersection of artificial intelligence and bioinformatics, focusing on protein language models, sequence and structure analysis, RNA structure prediction, peptide therapeutics, and bioinformatics tools.
 </div>
 
 <div class="action-links">
@@ -31,5 +29,3 @@ I hold a PhD in Bioinformatics Engineering and am an <strong>Associate Research 
   <a href="https://github.com/wangleiofficial" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
   <a href="mailto:wanglei@isyslab.org"><i class="fas fa-envelope"></i> Email</a>
 </div>
-
-<p class="academic-summary">Previously a postdoctoral fellow at Huazhong University of Science and Technology (2024–2026), where I completed my PhD. I serve on the IEEE BIBM programme committee and review for <em>npj Digital Medicine</em>, <em>Journal of Cheminformatics</em>, <em>BMC Genomics</em>, and <em>Bioinformatics</em>.</p>

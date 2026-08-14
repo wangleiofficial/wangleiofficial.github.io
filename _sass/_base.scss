@@ -168,7 +168,7 @@ blockquote {
 }
 
 .navbar .container {
-  min-height: 4.35rem;
+  min-height: 3.75rem;
 }
 
 .navbar-brand {
@@ -185,43 +185,43 @@ blockquote {
   color: #fff !important;
   display: inline-flex;
   font-family: Georgia, serif;
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  height: 2rem;
+  height: 1.7rem;
   justify-content: center;
   letter-spacing: -0.05em;
-  width: 2rem;
+  width: 1.7rem;
 }
 
 .brand-name {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 650;
 }
 
 .post {
-  padding-top: 2.7rem;
+  padding-top: 1.55rem;
 }
 
 .post-header {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.15rem;
 }
 
 .post-title {
-  font-size: clamp(2rem, 3.4vw, 2.8rem);
-  font-weight: 500;
+  font-size: clamp(1.8rem, 3vw, 2.35rem);
+  font-weight: 600;
   line-height: 1;
   margin-bottom: 0.45rem;
 }
 
 .desc {
   color: var(--global-text-color-light);
-  font-size: 0.84rem;
+  font-size: 0.78rem;
   letter-spacing: 0.02em;
 }
 
 .profile.float-right {
-  margin-left: clamp(1.2rem, 3vw, 2.5rem);
-  width: min(22%, 170px);
+  margin-left: clamp(1rem, 2.5vw, 1.75rem);
+  width: min(18%, 125px);
 }
 
 .profile img.rounded-circle {
@@ -240,11 +240,11 @@ blockquote {
 }
 
 .intro-copy {
-  font-size: 1rem;
+  font-size: 0.94rem;
   letter-spacing: -0.005em;
-  line-height: 1.65;
-  max-width: 43rem;
-  padding: 0.35rem 0 0;
+  line-height: 1.6;
+  max-width: 40rem;
+  padding: 0;
 }
 
 .action-links, .profile-links {
@@ -254,7 +254,7 @@ blockquote {
   gap: 0.75rem;
 }
 
-.action-links { margin: 1.25rem 0 0.85rem; }
+.action-links { margin: 1rem 0 0.7rem; }
 
 .button {
   border: 1px solid var(--global-divider-color);
@@ -279,9 +279,7 @@ blockquote {
   color: #fff !important;
 }
 
-.profile-links {
-  gap: 1.1rem;
-}
+.profile-links { gap: 0.9rem; }
 
 .profile-links a {
   color: var(--global-text-color-light) !important;
@@ -292,18 +290,6 @@ blockquote {
   color: var(--global-theme-color);
   margin-right: 0.25rem;
 }
-
-.academic-summary {
-  border-top: 1px solid var(--global-divider-color);
-  color: var(--global-text-color-light) !important;
-  font-size: 0.82rem;
-  line-height: 1.65;
-  margin-bottom: 2rem;
-  margin-top: 1.8rem;
-  padding-top: 0.9rem;
-}
-
-.academic-summary em { color: inherit !important; }
 
 .publication-intro {
   border-bottom: 1px solid var(--global-divider-color);
@@ -374,9 +360,9 @@ footer .container {
 }
 
 @media (max-width: 575px) {
-  .post { padding-top: 1.7rem; }
-  .post-title { font-size: 2.15rem; }
-  .profile.float-right { margin: 0 0 1rem 1.1rem; width: 29%; }
+  .post { padding-top: 1.25rem; }
+  .post-title { font-size: 1.9rem; }
+  .profile.float-right { margin: 0 0 0.8rem 1rem; width: 25%; }
   .publications .abbr { margin-bottom: 0.8rem; }
 }
 .dropdown-item {
