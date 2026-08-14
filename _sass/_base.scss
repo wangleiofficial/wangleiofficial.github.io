@@ -8,6 +8,16 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+body {
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  letter-spacing: -0.012em;
+}
+
+h1, h2, h3 {
+  font-family: Iowan Old Style, Baskerville, Georgia, serif;
+  letter-spacing: -0.035em;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -140,7 +150,8 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.97;
+  backdrop-filter: blur(12px);
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -154,6 +165,290 @@ blockquote {
   .dropdown-divider {
     border-top: 1px solid var(--global-divider-color) !important;
   }
+}
+
+.navbar .container {
+  min-height: 4.35rem;
+}
+
+.navbar-brand {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.7rem;
+  letter-spacing: -0.03em;
+}
+
+.brand-mark {
+  align-items: center;
+  background: var(--global-theme-color);
+  border-radius: 50%;
+  color: #fff !important;
+  display: inline-flex;
+  font-family: Georgia, serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  height: 2rem;
+  justify-content: center;
+  letter-spacing: -0.05em;
+  width: 2rem;
+}
+
+.brand-name {
+  font-size: 1.1rem;
+  font-weight: 650;
+}
+
+.post {
+  padding-top: 2.7rem;
+}
+
+.post-header {
+  margin-bottom: 2.8rem;
+}
+
+.post-title {
+  font-size: clamp(2.9rem, 7vw, 5.4rem);
+  font-weight: 500;
+  line-height: 0.94;
+  margin-bottom: 0.8rem;
+}
+
+.desc {
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.profile.float-right {
+  margin-left: clamp(1.8rem, 5vw, 5rem);
+  width: min(30%, 250px);
+}
+
+.profile img.rounded-circle {
+  aspect-ratio: 1;
+  box-shadow: none !important;
+  object-fit: cover;
+  object-position: center 22%;
+}
+
+.eyebrow, .section-kicker {
+  color: var(--global-theme-color) !important;
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.intro-copy {
+  font-family: Iowan Old Style, Baskerville, Georgia, serif;
+  font-size: clamp(1.4rem, 2.5vw, 1.95rem);
+  letter-spacing: -0.028em;
+  line-height: 1.35;
+  max-width: 42rem;
+  padding: 0.8rem 0 0;
+}
+
+.action-links, .profile-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.action-links { margin: 2rem 0 1.2rem; }
+
+.button {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color) !important;
+  display: inline-flex;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.66rem 1.05rem;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  border-color: var(--global-theme-color);
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+.button-primary {
+  background: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: #fff !important;
+  gap: 0.55rem;
+}
+
+.button-primary span { color: #fff !important; }
+
+.profile-links {
+  gap: 1.1rem;
+}
+
+.profile-links a {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.86rem;
+}
+
+.profile-links i {
+  color: var(--global-theme-color);
+  margin-right: 0.25rem;
+}
+
+.research-section, .academic-section {
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 4.8rem;
+  padding-top: 1.25rem;
+}
+
+.research-section h2, .academic-section h2 {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1.06;
+  margin: 0.4rem 0 2rem;
+  max-width: 40rem;
+}
+
+.research-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  background: var(--global-divider-color);
+  border: 1px solid var(--global-divider-color);
+}
+
+.research-card {
+  background: var(--global-bg-color);
+  min-height: 14rem;
+  padding: 1.4rem;
+}
+
+.research-number {
+  color: var(--global-theme-color) !important;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+}
+
+.research-card h3 {
+  font-size: 1.35rem;
+  font-weight: 550;
+  margin: 2.9rem 0 0.5rem;
+}
+
+.research-card p, .timeline p {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.academic-section {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.15fr 1fr;
+  margin-bottom: 2rem;
+}
+
+.academic-section h2 { margin-bottom: 0; }
+
+.timeline > div {
+  border-bottom: 1px solid var(--global-divider-color);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 4rem 1fr;
+  padding: 0.55rem 0 1rem;
+}
+
+.timeline > div + div { padding-top: 1rem; }
+
+.timeline span {
+  color: var(--global-theme-color) !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.timeline strong { color: var(--global-text-color) !important; }
+
+.publication-intro {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 2.4rem;
+  padding-bottom: 1.5rem;
+}
+
+.publication-intro p { color: var(--global-text-color-light) !important; margin: 0.5rem 0 0; }
+
+.publications h2.year {
+  color: var(--global-theme-color) !important;
+  font-family: Iowan Old Style, Baskerville, Georgia, serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2.6rem 0 1rem;
+}
+
+.publications .row {
+  border-top: 1px solid var(--global-divider-color);
+  margin: 0;
+  padding: 1.35rem 0;
+}
+
+.publications .abbr .badge {
+  background: transparent;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 99px;
+  color: var(--global-theme-color);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.36rem 0.5rem;
+}
+
+.publications .abbr .badge a { color: inherit; }
+
+.publications .title {
+  font-family: Iowan Old Style, Baskerville, Georgia, serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.publications .author, .publications .periodical {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.9rem;
+  margin-top: 0.35rem;
+}
+
+.publications .links .btn {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 99px;
+  color: var(--global-text-color) !important;
+  font-size: 0.75rem;
+  margin: 0.7rem 0.3rem 0 0;
+  padding: 0.22rem 0.55rem;
+}
+
+footer {
+  font-size: 0.78rem;
+}
+
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.7rem;
+  justify-content: space-between;
+}
+
+@media (max-width: 575px) {
+  .post { padding-top: 1.7rem; }
+  .post-title { font-size: 3.1rem; }
+  .profile.float-right { margin: 0 0 1.7rem 1.3rem; width: 34%; }
+  .research-grid { grid-template-columns: 1fr; }
+  .research-card { min-height: auto; }
+  .research-card h3 { margin-top: 1.8rem; }
+  .academic-section { grid-template-columns: 1fr; }
+  .publications .abbr { margin-bottom: 0.8rem; }
 }
 .dropdown-item {
   color: var(--global-text-color);
