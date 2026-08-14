@@ -8,7 +8,7 @@ sitemap: false
 
 <div class="news-admin-intro">
   <div class="eyebrow">GITHUB PUBLISHING</div>
-  <p>填写动态内容后，页面会生成新闻文件并带你前往 GitHub 提交。只有拥有本仓库写入权限的 GitHub 账号才能发布。</p>
+  <p>发布论文、会议、工具、获奖或团队动态。填写内容后，页面会生成新闻详情页并带你前往 GitHub 提交。</p>
 </div>
 
 <div class="news-admin-guide">
@@ -19,6 +19,18 @@ sitemap: false
   <div class="form-row">
     <label for="news-date">发布日期</label>
     <input id="news-date" name="date" type="date" required>
+  </div>
+
+  <div class="form-row">
+    <label for="news-type">动态类型</label>
+    <select id="news-type" name="type" required>
+      <option value="Publication">论文发表</option>
+      <option value="Conference">学术会议</option>
+      <option value="Tool">工具与软件</option>
+      <option value="Award">荣誉与奖励</option>
+      <option value="Team">团队动态</option>
+      <option value="Other">其他</option>
+    </select>
   </div>
 
   <div class="form-row">
@@ -44,6 +56,7 @@ sitemap: false
   <div class="news-admin-actions">
     <button class="button button-primary" type="submit">前往 GitHub 发布</button>
     <a class="button" href="https://github.com/wangleiofficial/wangleiofficial.github.io/tree/master/_news" target="_blank" rel="noopener">管理已有 News</a>
+    <a class="button" href="/news/">查看全部动态</a>
   </div>
   <p id="news-manager-status" class="news-manager-status" role="status" aria-live="polite"></p>
 </form>
@@ -76,14 +89,21 @@ sitemap: false
       const date = value('news-date');
       const titleEn = value('news-title-en');
       const titleZh = value('news-title-zh');
+      const newsType = value('news-type');
       const bodyEn = value('news-body-en');
       const bodyZh = value('news-body-zh');
       const filename = `news-${date}-${slugify(titleEn)}.md`;
+      const typeLabels = {
+        Publication: '论文发表', Conference: '学术会议', Tool: '工具与软件',
+        Award: '荣誉与奖励', Team: '团队动态', Other: '其他'
+      };
       const content = [
         '---',
-        'layout: post',
+        'layout: news',
         `title: ${yamlString(titleEn)}`,
         `zh_title: ${yamlString(titleZh)}`,
+        `news_type: ${yamlString(newsType)}`,
+        `zh_type: ${yamlString(typeLabels[newsType])}`,
         `date: ${date} 09:00:00+0800`,
         '---',
         '',

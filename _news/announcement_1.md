@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: news
 title: GNN-Dom accepted to ISBRA 2022
 zh_title: GNN-Dom 论文被 ISBRA 2022 录用
+news_type: Conference
+zh_type: 学术会议
 date: 2022-9-25 15:59:00-0400
 ---
 

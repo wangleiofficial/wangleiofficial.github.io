@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: news
 title: ProtFormer-Site published in Interdisciplinary Sciences
 zh_title: ProtFormer-Site 论文发表于 Interdisciplinary Sciences
+news_type: Publication
+zh_type: 论文发表
 date: 2026-08-14 09:00:00+0800
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: news
 title: "ProtSSSD, our work on protein disorder region prediction, has been published in IEEE International Conference on Bioinformatics and Biomedicine 2025."
 zh_title: "ProtSSSD是我们利用蛋白质语言模型预测蛋白质无序区，发表在BIBM 2025."
+news_type: Conference
+zh_type: 学术会议
 date: 2025-12-20 09:00:00+0800
 ---
 

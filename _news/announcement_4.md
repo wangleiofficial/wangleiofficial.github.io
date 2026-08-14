@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: news
 title: LocPred-Prok published in Journal of Molecular Biology
 zh_title: LocPred-Prok 论文发表于 Journal of Molecular Biology
+news_type: Publication
+zh_type: 论文发表
 date: 2026-01-27 09:00:00+0800
 ---
 

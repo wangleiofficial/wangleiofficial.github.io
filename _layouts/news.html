@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="post news-post">
+  <header class="news-post-header">
+    <a class="news-back" href="{{ '/news/' | relative_url }}">← All news</a>
+    <div class="news-post-meta">
+      <span class="news-item-type">{{ page.news_type | default: "Research update" }}</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content news-post-content">
+    {{ content }}
+  </article>
+
+  <a class="button news-back-button" href="{{ '/news/' | relative_url }}">All news</a>
+</div>
