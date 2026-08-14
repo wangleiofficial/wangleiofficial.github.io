@@ -1,7 +1,12 @@
 ---
 layout: post
+title: Res-Dom accepted by Bioinformatics Advances
+zh_title: Res-Dom 论文被 Bioinformatics Advances 录用
 date: 2022-07-15 07:59:00-0400
-inline: true
 ---
 
 [Res-Dom](https://doi.org/10.1093/bioadv/vbac060) has been accepted by Bioinformatics Advances!
+
+### 中文简介
+
+[Res-Dom](https://doi.org/10.1093/bioadv/vbac060) 论文已被 <em>Bioinformatics Advances</em> 录用。

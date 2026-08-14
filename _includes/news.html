@@ -15,13 +15,7 @@
                 <tr>
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
-                    {% if page.language == 'zh' and item.zh -%}
-                      {{ item.zh | emojify }}
-                    {% elsif item.inline -%}
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{% if page.language == 'zh' and item.zh_title %}{{ item.zh_title }}{% else %}{{ item.title }}{% endif %}</a>
-                    {%- endif %} 
+                    <a class="news-title" href="{{ item.url | relative_url }}">{% if page.language == 'zh' and item.zh_title %}{{ item.zh_title }}{% else %}{{ item.title }}{% endif %}</a>
                   </td>
                 </tr>
               {%- endfor %} 
