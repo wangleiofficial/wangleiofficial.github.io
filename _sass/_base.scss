@@ -578,14 +578,12 @@ blockquote {
   padding-left: 1.1rem;
 }
 
-.research-intro,
 .notes-intro {
   border-bottom: 1px solid var(--global-divider-color);
   margin-bottom: 1.4rem;
   padding-bottom: 1rem;
 }
 
-.research-intro p,
 .notes-intro p {
   color: var(--global-text-color-light) !important;
   font-size: 0.94rem;
@@ -593,45 +591,6 @@ blockquote {
   margin: 0.45rem 0 0;
   max-width: 40rem;
 }
-
-.research-grid {
-  background: var(--global-divider-color);
-  border: 1px solid var(--global-divider-color);
-  display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.research-card {
-  background: var(--global-bg-color);
-  min-height: 15rem;
-  padding: 1.2rem;
-}
-
-.research-card h2 {
-  font-family: Iowan Old Style, Baskerville, Georgia, serif;
-  font-size: 1.35rem;
-  font-weight: 500;
-  line-height: 1.15;
-  margin: 1.35rem 0 0.55rem;
-}
-
-.research-card p {
-  color: var(--global-text-color-light) !important;
-  font-size: 0.84rem;
-  line-height: 1.55;
-  margin: 0;
-}
-
-.research-card a {
-  color: var(--global-text-color) !important;
-  display: inline-block;
-  font-size: 0.78rem;
-  font-weight: 700;
-  margin-top: 1.15rem;
-}
-
-.research-card a:hover { color: var(--global-theme-color) !important; text-decoration: none; }
 
 .notes-list { border-top: 1px solid var(--global-divider-color); }
 
@@ -695,10 +654,6 @@ blockquote {
   font-size: 1rem;
   line-height: 1.55;
   margin: 0.7rem 0 0;
-}
-
-@media (max-width: 700px) {
-  .research-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 575px) {
