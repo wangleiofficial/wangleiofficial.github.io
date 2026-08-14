@@ -203,25 +203,25 @@ blockquote {
 }
 
 .post-header {
-  margin-bottom: 2.8rem;
+  margin-bottom: 1.6rem;
 }
 
 .post-title {
-  font-size: clamp(2.25rem, 4.5vw, 3.65rem);
+  font-size: clamp(2rem, 3.4vw, 2.8rem);
   font-weight: 500;
-  line-height: 0.94;
-  margin-bottom: 0.8rem;
+  line-height: 1;
+  margin-bottom: 0.45rem;
 }
 
 .desc {
   color: var(--global-text-color-light);
-  font-size: 1rem;
+  font-size: 0.84rem;
   letter-spacing: 0.02em;
 }
 
 .profile.float-right {
-  margin-left: clamp(1.8rem, 5vw, 5rem);
-  width: min(30%, 250px);
+  margin-left: clamp(1.2rem, 3vw, 2.5rem);
+  width: min(22%, 170px);
 }
 
 .profile img.rounded-circle {
@@ -240,12 +240,11 @@ blockquote {
 }
 
 .intro-copy {
-  font-family: Iowan Old Style, Baskerville, Georgia, serif;
-  font-size: clamp(1.4rem, 2.5vw, 1.95rem);
-  letter-spacing: -0.028em;
-  line-height: 1.35;
-  max-width: 42rem;
-  padding: 0.8rem 0 0;
+  font-size: 1rem;
+  letter-spacing: -0.005em;
+  line-height: 1.65;
+  max-width: 43rem;
+  padding: 0.35rem 0 0;
 }
 
 .action-links, .profile-links {
@@ -255,16 +254,16 @@ blockquote {
   gap: 0.75rem;
 }
 
-.action-links { margin: 2rem 0 1.2rem; }
+.action-links { margin: 1.25rem 0 0.85rem; }
 
 .button {
   border: 1px solid var(--global-divider-color);
   border-radius: 999px;
   color: var(--global-text-color) !important;
   display: inline-flex;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  padding: 0.66rem 1.05rem;
+  padding: 0.48rem 0.85rem;
   transition: all 0.2s ease;
 }
 
@@ -278,10 +277,7 @@ blockquote {
   background: var(--global-theme-color);
   border-color: var(--global-theme-color);
   color: #fff !important;
-  gap: 0.55rem;
 }
-
-.button-primary span { color: #fff !important; }
 
 .profile-links {
   gap: 1.1rem;
@@ -289,7 +285,7 @@ blockquote {
 
 .profile-links a {
   color: var(--global-text-color-light) !important;
-  font-size: 0.86rem;
+  font-size: 0.8rem;
 }
 
 .profile-links i {
@@ -297,54 +293,17 @@ blockquote {
   margin-right: 0.25rem;
 }
 
-.academic-section {
+.academic-summary {
   border-top: 1px solid var(--global-divider-color);
-  margin-top: 4.8rem;
-  padding-top: 1.25rem;
-}
-
-.academic-section h2 {
-  font-size: clamp(1.9rem, 4vw, 3rem);
-  font-weight: 500;
-  line-height: 1.06;
-  margin: 0.4rem 0 2rem;
-  max-width: 40rem;
-}
-
-.timeline p {
   color: var(--global-text-color-light) !important;
-  font-size: 0.94rem;
-  line-height: 1.5;
-  margin: 0;
-}
-
-.academic-section {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: 1.15fr 1fr;
+  font-size: 0.82rem;
+  line-height: 1.65;
   margin-bottom: 2rem;
+  margin-top: 1.8rem;
+  padding-top: 0.9rem;
 }
 
-.academic-section h2 { margin-bottom: 0; }
-
-.timeline > div {
-  border-bottom: 1px solid var(--global-divider-color);
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 4rem 1fr;
-  padding: 0.55rem 0 1rem;
-}
-
-.timeline > div + div { padding-top: 1rem; }
-
-.timeline span {
-  color: var(--global-theme-color) !important;
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.timeline strong { color: var(--global-text-color) !important; }
+.academic-summary em { color: inherit !important; }
 
 .publication-intro {
   border-bottom: 1px solid var(--global-divider-color);
@@ -416,9 +375,8 @@ footer .container {
 
 @media (max-width: 575px) {
   .post { padding-top: 1.7rem; }
-  .post-title { font-size: 3.1rem; }
-  .profile.float-right { margin: 0 0 1.7rem 1.3rem; width: 34%; }
-  .academic-section { grid-template-columns: 1fr; }
+  .post-title { font-size: 2.15rem; }
+  .profile.float-right { margin: 0 0 1rem 1.1rem; width: 29%; }
   .publications .abbr { margin-bottom: 0.8rem; }
 }
 .dropdown-item {

@@ -21,7 +21,7 @@ I hold a PhD in Bioinformatics Engineering and am an <strong>Associate Research 
 </div>
 
 <div class="action-links">
-  <a class="button button-primary" href="/publications/">View publications <span>→</span></a>
+  <a class="button button-primary" href="/publications/">Publications</a>
   <a class="button" href="mailto:wanglei@ccnu.edu.cn">Get in touch</a>
 </div>
 
@@ -32,15 +32,4 @@ I hold a PhD in Bioinformatics Engineering and am an <strong>Associate Research 
   <a href="mailto:wanglei@isyslab.org"><i class="fas fa-envelope"></i> Email</a>
 </div>
 
-<section class="academic-section">
-  <div>
-    <div class="section-kicker">Background</div>
-    <h2>Academic background and service.</h2>
-  </div>
-  <div class="timeline">
-    <div><span>2026–now</span><p>Associate Research Professor<br><strong>Central China Normal University</strong></p></div>
-    <div><span>2024–2026</span><p>Postdoctoral fellow<br><strong>Huazhong University of Science and Technology</strong></p></div>
-    <div><span>PhD</span><p>Doctoral training<br><strong>Huazhong University of Science and Technology</strong></p></div>
-    <div><span>Service</span><p>Programme committee member and reviewer<br><strong>IEEE BIBM; npj Digital Medicine; Journal of Cheminformatics; BMC Genomics; Bioinformatics</strong></p></div>
-  </div>
-</section>
+<p class="academic-summary">Previously a postdoctoral fellow at Huazhong University of Science and Technology (2024–2026), where I completed my PhD. I serve on the IEEE BIBM programme committee and review for <em>npj Digital Medicine</em>, <em>Journal of Cheminformatics</em>, <em>BMC Genomics</em>, and <em>Bioinformatics</em>.</p>
