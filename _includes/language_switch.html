@@ -1,7 +1,0 @@
-{% if page.english_url and page.chinese_url %}
-<nav class="language-switch" aria-label="Language selection">
-  <a href="{{ page.english_url | relative_url }}"{% if page.language == 'en' %} class="is-active" aria-current="page"{% endif %} lang="en">EN</a>
-  <span aria-hidden="true">/</span>
-  <a href="{{ page.chinese_url | relative_url }}"{% if page.language == 'zh' %} class="is-active" aria-current="page"{% endif %} lang="zh">中文</a>
-</nav>
-{% endif %}
