@@ -125,6 +125,8 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+
+        {%- capture citation_text -%}{{ entry.author | replace: " and ", ", " }} ({{ entry.year }}). {{ entry.title }}. {% if entry.journal %}{{ entry.journal }}.{% elsif entry.booktitle %}{{ entry.booktitle }}.{% endif %}{% if entry.doi %} https://doi.org/{{ entry.doi }}{% elsif entry.url %} {{ entry.url }}{% endif %}{%- endcapture -%}
         
           <!-- Links/Buttons -->
           <div class="links">
@@ -134,9 +136,8 @@
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
-          {%- if entry.bibtex_show %}
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          {%- endif %}
+          <button type="button" class="copy-publication btn btn-sm z-depth-0" data-copy="{{ entry.bibtex | hideCustomBibtex | strip | escape }}" data-copy-label="BibTeX">BibTeX</button>
+          <button type="button" class="copy-publication btn btn-sm z-depth-0" data-copy="{{ citation_text | strip | escape }}" data-copy-label="Cite">Cite</button>
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {%- endif %}

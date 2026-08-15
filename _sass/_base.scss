@@ -799,12 +799,20 @@ blockquote {
 }
 
 .publications .links .btn {
+  background: transparent;
   border: 1px solid var(--global-divider-color);
   border-radius: 99px;
   color: var(--global-text-color) !important;
+  cursor: pointer;
+  font-family: inherit;
   font-size: 0.75rem;
   margin: 0.7rem 0.3rem 0 0;
   padding: 0.22rem 0.55rem;
+}
+
+.publications .links .copy-publication.copied {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color) !important;
 }
 
 footer {
