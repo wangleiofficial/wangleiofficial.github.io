@@ -18,7 +18,7 @@ social: false
 ---
 
 <div class="intro-copy">
-I am an <strong>Associate Research Professor</strong> at <strong>Central China Normal University</strong> and a member of <strong>Professor Guangfu Yang’s group</strong>. I received my PhD in Bioinformatics Engineering from Huazhong University of Science and Technology in December 2023, and completed postdoctoral research at its School of Computer Science and Technology from 2024 to July 2026. I work at the intersection of artificial intelligence and bioinformatics, focusing on protein language models, sequence and structure analysis, RNA structure prediction, peptide therapeutics, and bioinformatics tools.
+I am an <strong>Associate Research Professor</strong> at <strong>Central China Normal University</strong> and a member of <a href="http://chemyang.ccnu.edu.cn/#/home" target="_blank" rel="noopener"><strong>Professor Guangfu Yang’s group</strong></a>. I received my PhD in Bioinformatics Engineering from Huazhong University of Science and Technology in December 2023, and completed postdoctoral research at its School of Computer Science and Technology from 2024 to July 2026 with <a href="http://isyslab.info/" target="_blank" rel="noopener">ISYS Lab</a>. I work at the intersection of artificial intelligence and bioinformatics, focusing on protein language models, sequence and structure analysis, RNA structure prediction, peptide therapeutics, and bioinformatics tools.
 </div>
 
 <div class="action-links">

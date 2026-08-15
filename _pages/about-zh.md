@@ -18,7 +18,7 @@ social: false
 ---
 
 <div class="intro-copy">
-我现为<strong>华中师范大学</strong>特任副研究员、<strong>杨光富教授团队</strong>成员。2023 年 12 月在华中科技大学获得生物信息学工学博士学位；2024 年至 2026 年 7 月于华中科技大学软件学院计算机科学与技术博士后流动站从事博士后研究。研究聚焦人工智能与生物信息学的交叉应用，包括蛋白质语言模型、生物序列与结构智能分析、RNA 结构预测、肽药物及生物信息学工具开发。
+我现为<strong>华中师范大学</strong>特任副研究员、<a href="http://chemyang.ccnu.edu.cn/#/home" target="_blank" rel="noopener"><strong>杨光富教授团队</strong></a>成员。2023 年 12 月在华中科技大学获得生物信息学工学博士学位；2024 年至 2026 年 7 月于华中科技大学软件学院计算机科学与技术博士后流动站从事博士后研究，期间加入 <a href="http://isyslab.info/" target="_blank" rel="noopener">ISYS Lab</a>。研究聚焦人工智能与生物信息学的交叉应用，包括蛋白质语言模型、生物序列与结构智能分析、RNA 结构预测、肽药物及生物信息学工具开发。
 </div>
 
 <div class="action-links">
