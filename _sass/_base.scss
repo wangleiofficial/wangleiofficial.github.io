@@ -245,8 +245,8 @@ blockquote {
 .profile img.rounded-circle {
   aspect-ratio: 1;
   box-shadow: none !important;
-  object-fit: cover;
-  object-position: center 22%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .eyebrow, .section-kicker {
