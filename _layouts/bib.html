@@ -2,8 +2,27 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
-        {%- if entry.preview -%}
+        <div class="col-sm-2 {% if entry.preview or entry.cover %}preview{% else %}abbr{% endif %}">
+        {%- if entry.cover -%}
+          {%- assign cover_venue = entry.journal | default: entry.booktitle | default: entry.abbr -%}
+          {%- assign cover_label = 'PROTEIN AI' -%}
+          {%- if entry.cover == 'rna' -%}
+            {%- assign cover_label = 'RNA STRUCTURE' -%}
+          {%- elsif entry.cover == 'peptide' -%}
+            {%- assign cover_label = 'PEPTIDE SCIENCE' -%}
+          {%- elsif entry.cover == 'structure' -%}
+            {%- assign cover_label = 'STRUCTURE AI' -%}
+          {%- elsif entry.cover == 'neural' -%}
+            {%- assign cover_label = 'NEUROSCIENCE' -%}
+          {%- endif -%}
+          <a class="publication-cover cover-{{ entry.cover }}" href="{{ entry.url }}" target="_blank" rel="noopener" aria-label="Read {{ entry.title }}">
+            <span class="publication-cover-venue">{{ cover_venue | truncate: 36 }}</span>
+            <span class="publication-cover-year">{{ entry.year }}</span>
+            <span class="publication-cover-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="publication-cover-label">{{ cover_label }}</span>
+            <span class="publication-cover-footer">RESEARCH PAPER</span>
+          </a>
+        {%- elsif entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}

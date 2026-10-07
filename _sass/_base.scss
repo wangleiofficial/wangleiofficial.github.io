@@ -1176,6 +1176,164 @@ footer.sticky-bottom {
         min-width: 80px;
         max-width: 200px;
       }
+      .publication-cover {
+        --cover-top: #087da6;
+        --cover-bottom: #152556;
+        --cover-accent: #65e3ed;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 130px;
+        aspect-ratio: 0.72;
+        overflow: hidden;
+        padding: 0.72rem 0.62rem 0.54rem;
+        color: #fff;
+        background: linear-gradient(155deg, var(--cover-top), var(--cover-bottom));
+        border-radius: 0.2rem;
+        box-shadow: 0 0.3rem 0.85rem rgba(8, 26, 54, 0.24);
+        isolation: isolate;
+        text-decoration: none;
+        transition: transform 160ms ease, box-shadow 160ms ease;
+
+        &:hover {
+          color: #fff;
+          text-decoration: none;
+          transform: translateY(-2px);
+          box-shadow: 0 0.55rem 1.1rem rgba(8, 26, 54, 0.32);
+        }
+
+        &::before,
+        &::after {
+          position: absolute;
+          z-index: -1;
+          content: "";
+          border-radius: 999px;
+          opacity: 0.72;
+        }
+
+        &::before {
+          width: 115%;
+          height: 42%;
+          right: -35%;
+          bottom: 20%;
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          transform: rotate(-21deg);
+        }
+
+        &::after {
+          width: 85%;
+          height: 34%;
+          left: -35%;
+          bottom: 11%;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transform: rotate(28deg);
+        }
+
+        &.cover-rna {
+          --cover-top: #057c97;
+          --cover-bottom: #1b2167;
+          --cover-accent: #ff85c8;
+        }
+
+        &.cover-peptide {
+          --cover-top: #2f5684;
+          --cover-bottom: #212050;
+          --cover-accent: #8df0d0;
+        }
+
+        &.cover-structure {
+          --cover-top: #5e3b8b;
+          --cover-bottom: #132e59;
+          --cover-accent: #f0c979;
+        }
+
+        &.cover-neural {
+          --cover-top: #9a5275;
+          --cover-bottom: #242c67;
+          --cover-accent: #85e4f5;
+        }
+      }
+      .publication-cover-venue {
+        min-height: 2.05em;
+        font-size: 0.52rem;
+        font-weight: 600;
+        line-height: 1.18;
+        letter-spacing: 0.015em;
+        opacity: 0.96;
+      }
+      .publication-cover-year {
+        margin-top: 0.22rem;
+        font-size: 0.48rem;
+        font-weight: 700;
+        letter-spacing: 0.13em;
+        opacity: 0.75;
+      }
+      .publication-cover-art {
+        position: relative;
+        display: block;
+        flex: 1;
+        min-height: 2.8rem;
+        margin: 0.48rem -0.15rem 0.3rem;
+
+        &::before,
+        &::after {
+          position: absolute;
+          content: "";
+          border-radius: 999px;
+        }
+
+        &::before {
+          width: 115%;
+          height: 1.35rem;
+          top: 40%;
+          left: -8%;
+          border-top: 0.18rem solid var(--cover-accent);
+          border-bottom: 0.18rem solid rgba(255, 255, 255, 0.72);
+          transform: rotate(-22deg);
+          opacity: 0.95;
+        }
+
+        &::after {
+          width: 70%;
+          height: 70%;
+          top: 3%;
+          left: 15%;
+          border: 1px dashed rgba(255, 255, 255, 0.52);
+          transform: rotate(25deg);
+        }
+
+        i {
+          position: absolute;
+          width: 0.34rem;
+          height: 0.34rem;
+          background: var(--cover-accent);
+          border-radius: 50%;
+          box-shadow: 0 0 0.45rem var(--cover-accent);
+        }
+        i:nth-child(1) { top: 10%; left: 12%; }
+        i:nth-child(2) { top: 24%; left: 71%; }
+        i:nth-child(3) { top: 46%; left: 38%; }
+        i:nth-child(4) { top: 59%; left: 82%; }
+        i:nth-child(5) { top: 74%; left: 17%; }
+        i:nth-child(6) { top: 86%; left: 58%; }
+      }
+      .publication-cover-label {
+        display: block;
+        font-size: clamp(0.58rem, 0.78vw, 0.84rem);
+        font-weight: 700;
+        line-height: 1.04;
+        letter-spacing: 0.035em;
+      }
+      .publication-cover-footer {
+        margin-top: 0.42rem;
+        padding-top: 0.34rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.36);
+        font-size: 0.42rem;
+        font-weight: 700;
+        letter-spacing: 0.11em;
+        opacity: 0.8;
+      }
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
