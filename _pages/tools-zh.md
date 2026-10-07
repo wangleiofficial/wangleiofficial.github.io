@@ -49,6 +49,16 @@ chinese_url: /zh/tools/
   </article>
 
   <article class="tool-card">
+    <div class="tool-meta">亚细胞定位预测</div>
+    <h2>LocPred-Prok</h2>
+    <p>结合双分支网络与蛋白质语言模型的原核蛋白亚细胞定位预测方法。</p>
+    <div class="tool-links">
+      <a href="https://github.com/protein-ailab/LocPred-Prok" target="_blank" rel="noopener">代码</a>
+      <a href="https://doi.org/10.1016/j.jmb.2026.169660" target="_blank" rel="noopener">论文</a>
+    </div>
+  </article>
+
+  <article class="tool-card">
     <div class="tool-meta">RNA 结构预测</div>
     <h2>MetaFold-RNA</h2>
     <p>利用元学习引导深度网络实现准确 RNA 二级结构预测的方法。</p>
@@ -68,4 +78,4 @@ chinese_url: /zh/tools/
   </article>
 </div>
 
-<p class="tools-footer">更多代码与实用工具请访问 <a href="https://github.com/wangleiofficial" target="_blank" rel="noopener">GitHub</a>。</p>
+<p class="tools-footer">更多代码与实用工具可访问 <a href="https://github.com/ISYSLAB-HUST" target="_blank" rel="noopener">iSyslab GitHub 组织</a> 或 <a href="https://github.com/wangleiofficial" target="_blank" rel="noopener">Lei Wang 的 GitHub 主页</a>。</p>

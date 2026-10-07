@@ -51,6 +51,16 @@ nav_order: 2
   </article>
 
   <article class="tool-card">
+    <div class="tool-meta">Subcellular localization</div>
+    <h2>LocPred-Prok</h2>
+    <p>A dual-branch, protein-language-model method for prokaryotic protein subcellular localization prediction.</p>
+    <div class="tool-links">
+      <a href="https://github.com/protein-ailab/LocPred-Prok" target="_blank" rel="noopener">Code</a>
+      <a href="https://doi.org/10.1016/j.jmb.2026.169660" target="_blank" rel="noopener">Paper</a>
+    </div>
+  </article>
+
+  <article class="tool-card">
     <div class="tool-meta">RNA structure prediction</div>
     <h2>MetaFold-RNA</h2>
     <p>A meta-learning-guided deep network for accurate RNA secondary-structure prediction.</p>
@@ -70,4 +80,4 @@ nav_order: 2
   </article>
 </div>
 
-<p class="tools-footer">More code and utilities are available on <a href="https://github.com/wangleiofficial" target="_blank" rel="noopener">GitHub</a>.</p>
+<p class="tools-footer">More code and utilities are available through the <a href="https://github.com/ISYSLAB-HUST" target="_blank" rel="noopener">iSyslab GitHub organization</a> and <a href="https://github.com/wangleiofficial" target="_blank" rel="noopener">Lei Wang’s GitHub profile</a>.</p>
