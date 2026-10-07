@@ -75,6 +75,7 @@ nav_order: 2
     <h2>SSAlign</h2>
     <p>An efficient and sensitive protein-structure retrieval method that combines sequence and structural representations.</p>
     <div class="tool-links">
+      <a href="https://github.com/ISYSLAB-HUST/SSAlign" target="_blank" rel="noopener">Code</a>
       <a href="https://www.biorxiv.org/content/10.1101/2025.07.03.662911v1" target="_blank" rel="noopener">Preprint</a>
     </div>
   </article>
