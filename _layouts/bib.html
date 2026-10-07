@@ -3,7 +3,13 @@
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 {% if entry.preview or entry.cover %}preview{% else %}abbr{% endif %}">
-        {%- if entry.cover -%}
+        {%- if entry.preview -%}
+          {% if entry.preview contains '://' -%}
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="Preview for {{ entry.title }}">
+          {%- else -%}
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="Preview for {{ entry.title }}">
+          {%- endif -%}
+        {%- elsif entry.cover -%}
           {%- assign cover_venue = entry.journal | default: entry.booktitle | default: entry.abbr -%}
           {%- assign cover_label = 'PROTEIN AI' -%}
           {%- if entry.cover == 'rna' -%}
@@ -22,12 +28,6 @@
             <span class="publication-cover-label">{{ cover_label }}</span>
             <span class="publication-cover-footer">RESEARCH PAPER</span>
           </a>
-        {%- elsif entry.preview -%}
-          {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-          {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
-          {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
             {%- assign venue_style = nil -%}
