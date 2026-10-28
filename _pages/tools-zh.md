@@ -74,6 +74,7 @@ chinese_url: /zh/tools/
     <p>融合序列与结构表征的高效、高灵敏度蛋白质结构检索方法。</p>
     <div class="tool-links">
       <a href="https://github.com/ISYSLAB-HUST/SSAlign" target="_blank" rel="noopener">代码</a>
+      <a href="https://doi.org/10.1093/bioinformatics/btag789" target="_blank" rel="noopener">论文</a>
       <a href="https://www.biorxiv.org/content/10.1101/2025.07.03.662911v1" target="_blank" rel="noopener">预印本</a>
     </div>
   </article>

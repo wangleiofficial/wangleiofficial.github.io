@@ -130,6 +130,9 @@
         
           <!-- Links/Buttons -->
           <div class="links">
+          {%- if entry.doi %}
+            <a href="https://doi.org/{{ entry.doi | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" title="DOI: {{ entry.doi | escape }}">DOI</a>
+          {%- endif %}
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
