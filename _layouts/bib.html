@@ -2,12 +2,15 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <div class="col-sm-2 {% if entry.preview %}publication-preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
+          {%- assign cover_info = site.data.publication_covers[entry.preview] -%}
+          {%- assign cover_journal = entry.journal | default: entry.booktitle -%}
+          {%- capture cover_description -%}{{ cover_journal }} journal cover{% if cover_info.scope == 'journal' %} (representative issue){% endif %}{%- endcapture -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="Preview for {{ entry.title }}">
+          <img class="publication-cover-image z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ cover_description | escape }}" title="{{ cover_description | escape }}" width="110" height="145" loading="lazy" decoding="async">
           {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="Preview for {{ entry.title }}">
+          <img class="publication-cover-image z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ cover_description | escape }}" title="{{ cover_description | escape }}" width="110" height="145" loading="lazy" decoding="async">
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
