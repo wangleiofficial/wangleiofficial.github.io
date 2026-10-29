@@ -1,0 +1,21 @@
+{%- assign visitor_stats = site.visitor_statistics -%}
+{%- if jekyll.environment == 'production' and visitor_stats.enabled and visitor_stats.counter_id != blank -%}
+{%- assign counter_server = visitor_stats.server | default: 's05' -%}
+{%- capture counter_origin -%}https://{{ counter_server }}.flagcounter.com{%- endcapture -%}
+<section class="visitor-statistics" aria-labelledby="visitor-statistics-heading">
+  <div class="visitor-statistics-heading">
+    <h2 id="visitor-statistics-heading">{% if page.language == 'zh' %}访客足迹{% else %}Visitors{% endif %}</h2>
+    <a href="https://info.flagcounter.com/{{ visitor_stats.counter_id | escape }}" target="_blank" rel="noopener noreferrer">{% if page.language == 'zh' %}查看统计{% else %}View statistics{% endif %} <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="visitor-statistics-content">
+    <a class="visitor-statistics-counter" href="https://info.flagcounter.com/{{ visitor_stats.counter_id | escape }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ counter_origin }}/count2/{{ visitor_stats.counter_id | escape }}/bg_FFFFFF/txt_334155/border_FFFFFF/columns_2/maxflags_10/viewers_Visitors/labels_1/pageviews_1/flags_1/percent_0/" alt="{% if page.language == 'zh' %}中英文首页累计浏览量和访客国家／地区统计{% else %}Pageviews and visitor countries or regions for both homepage languages{% endif %}" loading="eager" decoding="async" referrerpolicy="strict-origin">
+    </a>
+    <div class="visitor-statistics-details">
+      <p>{% if page.language == 'zh' %}来自世界各地的访客。{% else %}Visitors from around the world.{% endif %}</p>
+      <a href="{{ counter_origin }}/gmap/{{ visitor_stats.counter_id | escape }}/" target="_blank" rel="noopener noreferrer">{% if page.language == 'zh' %}访客分布地图{% else %}Visitor map{% endif %} <span aria-hidden="true">↗</span></a>
+      <p class="visitor-statistics-note">{% if page.language == 'zh' %}中英文首页合并统计，地区依据 IP 估算。{% else %}Both homepage languages combined. Locations estimated from IP addresses.{% endif %}</p>
+    </div>
+  </div>
+</section>
+{%- endif -%}
